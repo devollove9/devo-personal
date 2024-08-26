@@ -94,7 +94,6 @@ const Footer = () => (
       </div>
       <div className="flex-1">
         <form>
-          <ScrollIntoView hashName="#contact" />
           <div className="px-6 sm:pl-0 sm:pr-9">
             <div className="footer-form-field">
               <label htmlFor="contact-form-name" className="footer-form-label">
