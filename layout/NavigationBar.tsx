@@ -1,7 +1,6 @@
 'use client';
 
 import { useCallback, useState } from 'react';
-import type { LinkProps } from 'next/link';
 import { usePathname } from 'next/navigation';
 import Link, { LinkProps } from 'next/link';
 
