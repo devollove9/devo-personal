@@ -9,7 +9,7 @@ export const revalidate = 0;
 
 export default function RootLayout(layoutProps: any) {
   const { children } = layoutProps;
-  const fly = false;
+  const fly = true;
   return (
     <html lang="en">
       <head>
