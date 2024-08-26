@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const FooterNote = () => (
   <div className="text-xs" data-testid="page.footer">
     <p>© 2015 by Devo</p>
@@ -59,30 +61,8 @@ const Footer = () => (
           </div>
           <div className="mb-16">
             <ul aria-label="Social Bar" className="flex gap-4 items-center">
-              <li>
-                <a
-                  href="http://www.facebook.com/wix"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    width={25}
-                    height={25}
-                    alt="Facebook"
-                    src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://x.com/wix" target="_blank" rel="noreferrer">
-                  <Image
-                    width={17}
-                    height={17}
-                    src="https://static.wixstatic.com/media/2be684_ea277e5149dc4b86ab826475d4d64c41~mv2.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2be684_ea277e5149dc4b86ab826475d4d64c41~mv2.png"
-                    alt="X"
-                  />
-                </a>
-              </li>
+  
+            
               <li>
                 <a
                   href="https://instagram.com/wix/"
@@ -103,12 +83,6 @@ const Footer = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    width={25}
-                    height={25}
-                    src="https://static.wixstatic.com/media/78aa2057f0cb42fbbaffcbc36280a64a.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/78aa2057f0cb42fbbaffcbc36280a64a.png"
-                    alt="YouTube"
-                  />
                 </a>
               </li>
             </ul>
