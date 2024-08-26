@@ -1,3 +1,4 @@
+import NavigationBar from '@layout/NavigationBar';
 const Header = () => (
   <>
     <header
@@ -14,7 +15,7 @@ const Header = () => (
           <div className="text-xs tracking-widest">Devo is doing something</div>
         </a>
         <div className="flex-grow pb-5 pr-5">
-          <NavBar />
+          <NavigationBar />
         </div>
       </div>
     </header>
