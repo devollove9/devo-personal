@@ -2,12 +2,12 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Devo</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/devollove9',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://github.com/devollove9',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
