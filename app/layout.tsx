@@ -1,6 +1,6 @@
 
-import Footer from '@layout/Footer';
-import Header from '@layout/Header';
+import Footer from '@layout/Footer.tsx';
+import Header from '@layout/Header.tsx';
 /**
  * Using force dynamic so changes in business assets (e.g. services) are immediately reflected.
  * If you prefer having it reflected only after redeploy (not recommended) please remove it
