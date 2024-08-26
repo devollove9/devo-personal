@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
+  "name": "Devo's personal site",
+  "version": "1.0.0",
+  "description": "Devo's personal site",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/devollove9/devo-personal"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Devo Li",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/devollove9/devo-personal"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/devollove9/devo-personal",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
