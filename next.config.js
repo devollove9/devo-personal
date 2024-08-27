@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],
-  experimental: {
+  /*experimental: {
     appDir: true,
-  },
+  },*/
 }
 
 const withNextra = require('nextra')({
