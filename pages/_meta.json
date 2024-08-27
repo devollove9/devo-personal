@@ -1,0 +1,20 @@
+{
+  "index": "About",
+  "another": "Another Page",
+  "advanced": "Advanced",
+  "problems":"Common Problems",
+  "projects": {
+    "title": "Projects",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "517Today ↗",
+    "type": "page",
+    "href": "https://517.today",
+    "newWindow": true
+  }
+}

@@ -7,7 +7,7 @@ export type LogoProps = {
 export default (props: LogoProps) => {
     const {children, ...logoProps} = props
     return (
-      <div className={'logo ' + this.props.className} onClick={this.props.clickHandler}>
+      <div className={'logo ' } >
         <div className="circle"/>
       </div>
     )
