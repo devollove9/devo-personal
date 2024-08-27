@@ -69,12 +69,7 @@ const Footer = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Image
-                    width={25}
-                    height={25}
-                    src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png"
-                    alt="Instagram"
-                  />
+                 asd
                 </a>
               </li>
               <li>
