@@ -17,12 +17,12 @@ public interface ApiExample {
 
     // This will be public/data?dataId=yourdataId
     @GET("public/data")
-    Call<T> getOneData(@Query("dataId") String yourdataId);
+    Call<T> getOneData(@Query("dataId"), String yourdataId);
 }
 ```
 
 ## Create Data Model
-```
+```java
 public class DataModel {
 	private String name;
 
