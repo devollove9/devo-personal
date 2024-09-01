@@ -1,1 +1,47 @@
 # Other problems
+
+-to get bottom navigation view in main activity use 
+
+BottomNavigationView bottomNavigationView = findViewById(R.id.main_bottomNav);
+
+-to remove bottom navigation animation
+add app:labelVisibilityMode="labeled" in your layout's BottomNavigationView
+
+-to change color of bottom Navigation View
+1. add default and selected colors to your colors xml
+
+```
+    <color name="default_selection">#FFf44322</color>
+    <color name="default_nav">#FF808080</color>
+```
+
+2. create a navigation_color xml that controls colors of the active and default
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:color="@color/default_selection" />
+    <item android:state_checked="false" android:color="@color/default_nav"/>
+</selector>
+```
+
+-to remote selected icon font become bold
+set app:itemTextAppearanceActiveBoldEnabled to false
+
+
+-to remove action bar in app
+Change your theme.xml DarkActionBar to NoActionBar
+```
+<style name="Theme.Adnroid517today" parent="Theme.MaterialComponents.DayNight.NoActionBar>
+```
+And remove any line of code in your activity that has something to do with the toolbar. Including the line 
+```
+NavigationUI.setupActionBarWithNavController(this, navController);
+```
+-to change status bar color % background color to white and black
+add
+````
+<item name="android:windowLightStatusBar">true</item> 
+```
+to your theme
+then add ```<item name="android:statusBarColor">@color/white</item>``` white here is just your pick for background 
