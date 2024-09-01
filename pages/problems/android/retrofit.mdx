@@ -3,14 +3,14 @@
 ## To use retrofit
 
 add to buiul.gradle
-```
+```java
     implementation 'com.squareup.retrofit2:retrofit:2.11.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
 ```
 
 ## Create Api interface
-```
+```java
 public interface ApiExample {
     @GET("public/data")
     Call<T> getAllData();
@@ -37,7 +37,7 @@ public class DataList {
 ```
 
 ## Create Wrapper
-```
+```java
 public abstract class WrappedCallback<T> implements Callback<T> {
 
     @Override
@@ -64,7 +64,7 @@ public abstract class WrappedCallback<T> implements Callback<T> {
 ```
 
 ## Create client
-```
+```java
 public class HttpService{
 
     public static final String API_URL = "https://api.example.com";
@@ -114,7 +114,7 @@ public class HttpService{
 
 ## Use in other Activity/Fragment/WhatsoeverPlaces
 
-```
+```java
 HttpService ht = HttpService.getInstance(this.getContext());
 
 ht.getOneData( "your data Id", new WrappedCallback<DataModel>() {
